@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 #include <errno.h>
-//test
+//testwd
 int main()
 {
     int sock;
