@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 #include <errno.h>
-//testwd
+
 int main()
 {
     int sock;
@@ -20,7 +20,7 @@ int main()
     char sv_ip[] = "192.168.50.145";
     int sv_port = 8008;
 
-    char buffer[1025];
+    char buffer[1025];      
     char response[32769];//32KB and 1 extra byte
 
     //create socket
