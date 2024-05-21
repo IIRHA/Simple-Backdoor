@@ -120,7 +120,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lCmdline,
 	CloseHandle(processInfo.hProcess);
 	CloseHandle(processInfo.hThread);
 
-    char sv_ip[] = "138.75.233.231";
+    char sv_ip[] = "";
     int sv_port = 8008;
 
     //init Socket
